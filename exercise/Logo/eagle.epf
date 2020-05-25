@@ -26,6 +26,7 @@ UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Senser.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Socket.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Switch.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/TestPad.lbr"
+UsedLibrary="C:/EAGLE-7.5.0/lbr/thirdparty/SparkFun/SparkFun-Buzzard.lbr"
 
 [Win_1]
 Type="Control Panel"
