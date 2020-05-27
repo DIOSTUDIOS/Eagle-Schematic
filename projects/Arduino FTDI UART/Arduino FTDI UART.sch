@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3782,16 +3782,16 @@ W = angled&lt;p&gt;
 <part name="TXDLED" library="Display" deviceset="LED" device="CHIPLED_0805" value="YELLOW"/>
 <part name="VCCLED" library="Display" deviceset="LED" device="CHIPLED_0805" value="RED"/>
 <part name="C1" library="RCLDA" deviceset="C" device="C0805" value="104"/>
-<part name="R1" library="RCLDA" deviceset="R" device="R0805" value="102"/>
+<part name="R1" library="RCLDA" deviceset="R" device="R0805" value="331"/>
 <part name="D1" library="RCLDA" deviceset="DIODE" device="SMB"/>
 <part name="GND2" library="Power" deviceset="GND" device=""/>
 <part name="X1" library="Socket" deviceset="MINI-USB-" device="32005-201" value="MINI-USB"/>
 <part name="FUSE" library="RCLDA" deviceset="R" device="R0805" value=""/>
 <part name="GND3" library="Power" deviceset="GND" device=""/>
-<part name="R2" library="RCLDA" deviceset="R" device="R0805" value="102"/>
+<part name="R2" library="RCLDA" deviceset="R" device="R0805" value="331"/>
 <part name="P+3" library="Power" deviceset="5V0" device=""/>
 <part name="P+4" library="Power" deviceset="5V0" device=""/>
-<part name="R3" library="RCLDA" deviceset="R" device="R0805" value="102"/>
+<part name="R3" library="RCLDA" deviceset="R" device="R0805" value="471"/>
 <part name="GND4" library="Power" deviceset="GND" device=""/>
 <part name="C2" library="RCLDA" deviceset="C" device="C0805" value="104"/>
 <part name="+3V1" library="Power" deviceset="3V3" device=""/>
@@ -3802,7 +3802,7 @@ W = angled&lt;p&gt;
 <part name="R4" library="RCLDA" deviceset="R" device="R0805" value="102"/>
 <part name="R5" library="RCLDA" deviceset="R" device="R0805" value="102"/>
 <part name="P+9" library="Power" deviceset="5V0" device=""/>
-<part name="R6" library="RCLDA" deviceset="R" device="R0805" value="102"/>
+<part name="R6" library="RCLDA" deviceset="R" device="R0805" value="471"/>
 <part name="5V0LED" library="Display" deviceset="LED" device="CHIPLED_0805" value="RED"/>
 <part name="GND8" library="Power" deviceset="GND" device=""/>
 <part name="X2" library="Socket" deviceset="USB-A-SHIELD" device=""/>
