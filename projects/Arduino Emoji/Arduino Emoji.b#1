@@ -155,8 +155,6 @@
 <wire x1="0" y1="59.69" x2="240.665" y2="59.69" width="0.254" layer="20"/>
 <wire x1="240.665" y1="59.69" x2="240.665" y2="0" width="0.254" layer="20"/>
 <wire x1="240.665" y1="0" x2="0" y2="0" width="0.254" layer="20"/>
-<dimension x1="0" y1="0" x2="240.665" y2="0" x3="120.3325" y3="-3.81" textsize="1.778" layer="47"/>
-<dimension x1="0" y1="0" x2="0" y2="59.69" x3="-1.905" y3="29.845" textsize="1.778" layer="47"/>
 </plain>
 <libraries>
 <library name="RCLDA">
