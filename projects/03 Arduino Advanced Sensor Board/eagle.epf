@@ -29,9 +29,9 @@ UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/TestPad.lbr"
 [Win_1]
 Type="Control Panel"
 Loc="0 0 1365 737"
-State=1
+State=3
 Number=0
 
 [Desktop]
-Screen="2806 900"
+Screen="1366 768"
 Window="Win_1"
