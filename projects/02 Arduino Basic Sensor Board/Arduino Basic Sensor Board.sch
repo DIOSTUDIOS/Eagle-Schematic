@@ -2853,26 +2853,26 @@ body 3.9 mm/JEDEC MS-012AC</description>
 </classes>
 <parts>
 <part name="FRAME1" library="Frame" deviceset="A4-H" device=""/>
-<part name="U$1" library="Module" deviceset="ARDUINO-UNO" device=""/>
+<part name="U$1" library="Module" deviceset="ARDUINO-UNO" device="" value=""/>
 <part name="S1" library="Button" deviceset="TS-DIP-4.5*4.5" device=""/>
 <part name="S2" library="Switch" deviceset="SD4-02" device=""/>
 <part name="LED4" library="Display" deviceset="LED" device="CHIPLED_0805" value="RED"/>
-<part name="U$2" library="Senser" deviceset="3362" device="3362"/>
-<part name="U$3" library="Senser" deviceset="BUZZER" device=""/>
-<part name="U$4" library="Senser" deviceset="DHT11" device=""/>
-<part name="U$5" library="Senser" deviceset="LM35" device=""/>
-<part name="U$6" library="Senser" deviceset="LDR" device=""/>
+<part name="U$2" library="Senser" deviceset="3362" device="3362" value=""/>
+<part name="U$3" library="Senser" deviceset="BUZZER" device="" value=""/>
+<part name="U$4" library="Senser" deviceset="DHT11" device="" value=""/>
+<part name="U$5" library="Senser" deviceset="LM35" device="" value=""/>
+<part name="U$6" library="Senser" deviceset="LDR" device="" value=""/>
 <part name="RELAY" library="Senser" deviceset="RELAY-HK4100F-DC5V" device="" value=""/>
 <part name="R1" library="RCLDA" deviceset="R" device="0805" value="331"/>
 <part name="R2" library="RCLDA" deviceset="R" device="0805" value="331"/>
 <part name="R3" library="RCLDA" deviceset="R" device="0805" value="331"/>
 <part name="R4" library="RCLDA" deviceset="R" device="0805" value="471"/>
 <part name="R5" library="RCLDA" deviceset="R" device="0805" value="103"/>
-<part name="Q1" library="RCLDA" deviceset="S8050" device="SOT23"/>
-<part name="Q2" library="RCLDA" deviceset="S8050" device="SOT23"/>
+<part name="Q1" library="RCLDA" deviceset="S8050" device="SOT23" value=""/>
+<part name="Q2" library="RCLDA" deviceset="S8050" device="SOT23" value=""/>
 <part name="R6" library="RCLDA" deviceset="R" device="0805" value="103"/>
 <part name="R7" library="RCLDA" deviceset="R" device="0805" value="222"/>
-<part name="D1" library="RCLDA" deviceset="DIODE" device="SMB"/>
+<part name="D1" library="RCLDA" deviceset="DIODE" device="SMB" value=""/>
 <part name="GND1" library="Power" deviceset="GND" device=""/>
 <part name="R8" library="RCLDA" deviceset="R" device="0805" value="102"/>
 <part name="GND2" library="Power" deviceset="GND" device=""/>
@@ -2886,8 +2886,8 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="LED10" library="Display" deviceset="LED" device="SML1206" value="RED"/>
 <part name="LED11" library="Display" deviceset="LED" device="SML1206" value="YELLOW"/>
 <part name="LED12" library="Display" deviceset="LED" device="SML1206" value="GREEN"/>
-<part name="U$8" library="Chip" deviceset="TM1650" device=""/>
-<part name="S3" library="Button" deviceset="TS-SMD_6*6_SHIELD" device="" technology="S"/>
+<part name="U$8" library="Chip" deviceset="TM1650" device="" value=""/>
+<part name="S3" library="Button" deviceset="TS-SMD_6*6_SHIELD" device="" technology="S" value=""/>
 <part name="R12" library="RCLDA" deviceset="R" device="0805" value="103"/>
 <part name="LED1" library="Display" deviceset="LED" device="CHIPLED_1206"/>
 <part name="LED2" library="Display" deviceset="LED" device="CHIPLED_1206"/>
@@ -2896,7 +2896,7 @@ body 3.9 mm/JEDEC MS-012AC</description>
 <part name="SV1" library="Pin-Header" deviceset="MA03-1" device=""/>
 <part name="SV4" library="Pin-Header" deviceset="MA03-1" device=""/>
 <part name="SV5" library="Pin-Header" deviceset="MA03-1" device=""/>
-<part name="U$15" library="Display" deviceset="3261AS" device=""/>
+<part name="U$15" library="Display" deviceset="3261AS" device="" value=""/>
 <part name="JP1" library="Jumper" deviceset="JP1Q" device=""/>
 <part name="JP2" library="Jumper" deviceset="JP1Q" device=""/>
 <part name="SV6" library="Pin-Header" deviceset="MA05-1" device=""/>
