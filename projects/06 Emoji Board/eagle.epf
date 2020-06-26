@@ -13,7 +13,6 @@ UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Connector.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Crystal.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Display.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Frame.lbr"
-UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Fuse.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Holes.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Jumper.lbr"
 UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/Logos.lbr"
@@ -30,10 +29,10 @@ UsedLibrary="C:/EAGLE-7.5.0/lbr/thirdparty/SparkFun/SparkFun-Buzzard.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 0 1365 715"
+Loc="0 0 2159 1359"
 State=1
 Number=0
 
 [Desktop]
-Screen="2806 900"
+Screen="2160 1440"
 Window="Win_1"

@@ -3350,6 +3350,11 @@ Mors</description>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="190.5" y1="106.68" x2="187.96" y2="106.68" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="S2" gate="1" pin="4"/>
+<wire x1="29.21" y1="57.15" x2="35.56" y2="57.15" width="0.1524" layer="91"/>
+<label x="29.21" y="57.15" size="1.27" layer="95"/>
+</segment>
 </net>
 <net name="5V0" class="0">
 <segment>
@@ -3460,6 +3465,11 @@ Mors</description>
 <pinref part="JP1" gate="A" pin="1"/>
 <wire x1="185.42" y1="99.06" x2="191.77" y2="99.06" width="0.1524" layer="91"/>
 <label x="186.69" y="99.06" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="S2" gate="1" pin="3"/>
+<wire x1="29.21" y1="59.69" x2="35.56" y2="59.69" width="0.1524" layer="91"/>
+<label x="29.21" y="59.69" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="3V3" class="0">
@@ -3779,18 +3789,6 @@ Mors</description>
 <pinref part="S1" gate="1" pin="P"/>
 <pinref part="S2" gate="1" pin="2"/>
 <wire x1="50.8" y1="59.69" x2="57.15" y2="59.69" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="S2" gate="1" pin="3"/>
-<wire x1="29.21" y1="59.69" x2="35.56" y2="59.69" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="S2" gate="1" pin="4"/>
-<wire x1="29.21" y1="57.15" x2="35.56" y2="57.15" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
