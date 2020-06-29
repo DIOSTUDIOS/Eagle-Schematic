@@ -2996,6 +2996,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1505860.pdf"&gt; Data shee
 <part name="R14" library="RCLDA" deviceset="R" device="0805" value="222"/>
 <part name="SV3" library="Pin-Header" deviceset="MA03-1" device=""/>
 <part name="SV4" library="Pin-Header" deviceset="MA03-1" device=""/>
+<part name="SV2" library="Pin-Header" deviceset="MA03-1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3063,6 +3064,7 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1505860.pdf"&gt; Data shee
 <instance part="R14" gate="G$1" x="102.87" y="158.75" rot="R180"/>
 <instance part="SV3" gate="G$1" x="46.99" y="95.25"/>
 <instance part="SV4" gate="G$1" x="64.77" y="95.25"/>
+<instance part="SV2" gate="G$1" x="87.63" y="95.25"/>
 </instances>
 <busses>
 </busses>
@@ -3205,6 +3207,11 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1505860.pdf"&gt; Data shee
 <pinref part="SV3" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="95.25" x2="54.61" y2="95.25" width="0.1524" layer="91"/>
 <label x="55.88" y="95.25" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="2"/>
+<wire x1="101.6" y1="95.25" x2="95.25" y2="95.25" width="0.1524" layer="91"/>
+<label x="96.52" y="95.25" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3423,12 +3430,22 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1505860.pdf"&gt; Data shee
 <wire x1="78.74" y1="92.71" x2="72.39" y2="92.71" width="0.1524" layer="91"/>
 <label x="73.66" y="92.71" size="1.27" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="1"/>
+<wire x1="101.6" y1="92.71" x2="95.25" y2="92.71" width="0.1524" layer="91"/>
+<label x="96.52" y="92.71" size="1.27" layer="95"/>
+</segment>
 </net>
 <net name="A3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="A3"/>
 <wire x1="25.4" y1="118.11" x2="20.32" y2="118.11" width="0.1524" layer="91"/>
 <label x="20.32" y="118.11" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV2" gate="G$1" pin="3"/>
+<wire x1="101.6" y1="97.79" x2="95.25" y2="97.79" width="0.1524" layer="91"/>
+<label x="96.52" y="97.79" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
