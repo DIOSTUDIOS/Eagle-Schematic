@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2980,6 +2980,9 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1505860.pdf"&gt; Data shee
 <part name="U$23" library="Button" deviceset="TS-SMD_3*6" device="TS-SMD-3*6" value=""/>
 <part name="U$24" library="Button" deviceset="TS-SMD_3*6" device="TS-SMD-3*6" value=""/>
 <part name="U$25" library="Button" deviceset="TS-SMD_3*6" device="TS-SMD-3*6" value=""/>
+<part name="R15" library="RCLDA" deviceset="R" device="0805" value="472"/>
+<part name="R16" library="RCLDA" deviceset="R" device="0805" value="472"/>
+<part name="R17" library="RCLDA" deviceset="R" device="0805" value="472"/>
 </parts>
 <sheets>
 <sheet>
@@ -3045,9 +3048,12 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1505860.pdf"&gt; Data shee
 <instance part="R12" gate="G$1" x="102.87" y="171.45" rot="R180"/>
 <instance part="R13" gate="G$1" x="102.87" y="165.1" rot="R180"/>
 <instance part="R14" gate="G$1" x="102.87" y="158.75" rot="R180"/>
-<instance part="U$23" gate="G$1" x="35.56" y="76.2"/>
-<instance part="U$24" gate="G$1" x="53.34" y="76.2"/>
-<instance part="U$25" gate="G$1" x="81.28" y="78.74"/>
+<instance part="U$23" gate="G$1" x="43.18" y="96.52"/>
+<instance part="U$24" gate="G$1" x="43.18" y="85.09"/>
+<instance part="U$25" gate="G$1" x="43.18" y="73.66"/>
+<instance part="R15" gate="G$1" x="26.67" y="96.52" rot="R180"/>
+<instance part="R16" gate="G$1" x="26.67" y="85.09" rot="R180"/>
+<instance part="R17" gate="G$1" x="26.67" y="73.66" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3180,6 +3186,21 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1505860.pdf"&gt; Data shee
 <pinref part="JP1" gate="B1" pin="2"/>
 <wire x1="215.9" y1="49.53" x2="222.25" y2="49.53" width="0.1524" layer="91"/>
 <label x="215.9" y="49.53" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="R15" gate="G$1" pin="2"/>
+<wire x1="16.51" y1="96.52" x2="21.59" y2="96.52" width="0.1524" layer="91"/>
+<label x="16.51" y="96.52" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="R16" gate="G$1" pin="2"/>
+<wire x1="16.51" y1="85.09" x2="21.59" y2="85.09" width="0.1524" layer="91"/>
+<label x="16.51" y="85.09" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="R17" gate="G$1" pin="2"/>
+<wire x1="16.51" y1="73.66" x2="21.59" y2="73.66" width="0.1524" layer="91"/>
+<label x="16.51" y="73.66" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3388,12 +3409,33 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1505860.pdf"&gt; Data shee
 <junction x="153.67" y="152.4"/>
 <label x="143.51" y="152.4" size="1.27" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$23" gate="G$1" pin="S"/>
+<wire x1="53.34" y1="96.52" x2="48.26" y2="96.52" width="0.1524" layer="91"/>
+<label x="49.53" y="96.52" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="S"/>
+<wire x1="53.34" y1="85.09" x2="48.26" y2="85.09" width="0.1524" layer="91"/>
+<label x="49.53" y="85.09" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$25" gate="G$1" pin="S"/>
+<wire x1="53.34" y1="73.66" x2="48.26" y2="73.66" width="0.1524" layer="91"/>
+<label x="49.53" y="73.66" size="1.27" layer="95"/>
+</segment>
 </net>
 <net name="A3" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="A3"/>
 <wire x1="25.4" y1="118.11" x2="20.32" y2="118.11" width="0.1524" layer="91"/>
 <label x="20.32" y="118.11" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$25" gate="G$1" pin="P"/>
+<wire x1="31.75" y1="73.66" x2="38.1" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<label x="33.02" y="73.66" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -3870,12 +3912,24 @@ Source: &lt;a href="http://www.farnell.com/datasheets/1505860.pdf"&gt; Data shee
 <wire x1="67.31" y1="135.89" x2="60.96" y2="135.89" width="0.1524" layer="91"/>
 <label x="62.23" y="135.89" size="1.27" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$23" gate="G$1" pin="P"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="31.75" y1="96.52" x2="38.1" y2="96.52" width="0.1524" layer="91"/>
+<label x="33.02" y="96.52" size="1.27" layer="95"/>
+</segment>
 </net>
 <net name="D8" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="D8"/>
 <wire x1="67.31" y1="133.35" x2="60.96" y2="133.35" width="0.1524" layer="91"/>
 <label x="62.23" y="133.35" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$24" gate="G$1" pin="P"/>
+<wire x1="31.75" y1="85.09" x2="38.1" y2="85.09" width="0.1524" layer="91"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<label x="33.02" y="85.09" size="1.27" layer="95"/>
 </segment>
 </net>
 </nets>
