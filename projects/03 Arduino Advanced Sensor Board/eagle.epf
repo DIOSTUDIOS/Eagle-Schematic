@@ -28,7 +28,7 @@ UsedLibrary="C:/EAGLE-7.5.0/lbr/customake/TestPad.lbr"
 
 [Win_1]
 Type="Library Editor"
-Loc="-8 -8 1431 897"
+Loc="0 0 1439 905"
 State=3
 Number=1
 File="C:/EAGLE-7.5.0/lbr/customake/Senser.lbr"
