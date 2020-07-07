@@ -1398,8 +1398,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </classes>
 <parts>
 <part name="FRAME1" library="Frame" deviceset="A4-H" device=""/>
-<part name="U$1" library="Module" deviceset="ARDUINO-UNO" device=""/>
-<part name="U$2" library="Senser" deviceset="RELAY-HK4100F-DC5V" device="" value=""/>
+<part name="ARDUINO-UNO" library="Module" deviceset="ARDUINO-UNO" device=""/>
+<part name="RELAY" library="Senser" deviceset="RELAY-HK4100F-DC5V" device="" value=""/>
 <part name="D1" library="RCLDA" deviceset="1N4007" device="SMB" value=""/>
 <part name="Q1" library="RCLDA" deviceset="S8050" device="SOT23" value=""/>
 <part name="R1" library="RCLDA" deviceset="R" device="0805" value=""/>
@@ -1414,52 +1414,119 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
-<instance part="U$1" gate="G$1" x="66.04" y="121.92"/>
-<instance part="U$2" gate="G$1" x="115.57" y="137.16" rot="R90"/>
-<instance part="D1" gate="G$1" x="104.14" y="137.16" rot="R90"/>
-<instance part="Q1" gate="G$1" x="101.6" y="124.46"/>
+<instance part="ARDUINO-UNO" gate="G$1" x="66.04" y="121.92"/>
+<instance part="RELAY" gate="G$1" x="114.3" y="138.43" rot="R90"/>
+<instance part="D1" gate="G$1" x="102.87" y="138.43" rot="R90"/>
+<instance part="Q1" gate="G$1" x="100.33" y="124.46"/>
 <instance part="R1" gate="G$1" x="91.44" y="124.46"/>
-<instance part="R2" gate="G$1" x="158.75" y="137.16"/>
-<instance part="R3" gate="G$1" x="158.75" y="127"/>
-<instance part="LED1" gate="G$1" x="173.99" y="135.89" rot="R90"/>
-<instance part="LED2" gate="G$1" x="172.72" y="125.73" rot="R90"/>
+<instance part="R2" gate="G$1" x="124.46" y="152.4"/>
+<instance part="R3" gate="G$1" x="124.46" y="144.78"/>
+<instance part="LED1" gate="G$1" x="133.35" y="152.4" rot="R90"/>
+<instance part="LED2" gate="G$1" x="133.35" y="144.78" rot="R90"/>
 </instances>
 <busses>
 </busses>
 <nets>
-<net name="N$1" class="0">
+<net name="5V0" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="D9/PWM"/>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="ARDUINO-UNO" gate="G$1" pin="5V0"/>
+<wire x1="48.26" y1="127" x2="44.45" y2="127" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="127" x2="44.45" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="144.78" x2="102.87" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="RELAY" gate="G$1" pin="5"/>
+<wire x1="110.49" y1="143.51" x2="110.49" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="144.78" x2="102.87" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="152.4" x2="44.45" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="D1" gate="G$1" pin="1"/>
+<wire x1="102.87" y1="142.24" x2="102.87" y2="144.78" width="0.1524" layer="91"/>
+<junction x="102.87" y="144.78"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="GND" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="Q1" gate="G$1" pin="B"/>
-<wire x1="99.06" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="95.25" x2="44.45" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="ARDUINO-UNO" gate="G$1" pin="GND1"/>
+<wire x1="44.45" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="LED1" gate="G$1" pin="C"/>
+<wire x1="138.43" y1="152.4" x2="139.7" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="152.4" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="C"/>
+<wire x1="139.7" y1="144.78" x2="138.43" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="95.25" x2="102.87" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="95.25" x2="139.7" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="95.25" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
+<junction x="139.7" y="144.78"/>
+<pinref part="Q1" gate="G$1" pin="E"/>
+<wire x1="102.87" y1="119.38" x2="102.87" y2="95.25" width="0.1524" layer="91"/>
+<junction x="102.87" y="95.25"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
+<pinref part="RELAY" gate="G$1" pin="2"/>
+<wire x1="110.49" y1="132.08" x2="110.49" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="110.49" y1="132.08" x2="102.87" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="C"/>
+<wire x1="102.87" y1="129.54" x2="102.87" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="D1" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="133.35" x2="104.14" y2="130.81" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="130.81" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="130.81" x2="111.76" y2="130.81" width="0.1524" layer="91"/>
-<junction x="104.14" y="130.81"/>
-<pinref part="U$2" gate="G$1" pin="2"/>
-<wire x1="111.76" y1="130.81" x2="111.76" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="102.87" y1="132.08" x2="102.87" y2="134.62" width="0.1524" layer="91"/>
+<junction x="102.87" y="132.08"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="LED2" gate="G$1" pin="A"/>
+<wire x1="130.81" y1="144.78" x2="129.54" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="D1" gate="G$1" pin="1"/>
-<wire x1="104.14" y1="140.97" x2="104.14" y2="143.51" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="143.51" x2="111.76" y2="143.51" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="5"/>
-<wire x1="111.76" y1="143.51" x2="111.76" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="LED1" gate="G$1" pin="A"/>
+<wire x1="130.81" y1="152.4" x2="129.54" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="RELAY" gate="G$1" pin="4"/>
+<wire x1="118.11" y1="143.51" x2="118.11" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="118.11" y1="144.78" x2="119.38" y2="144.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="ARDUINO-UNO" gate="G$1" pin="D9/PWM"/>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="124.46" x2="83.82" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="Q1" gate="G$1" pin="B"/>
+<wire x1="97.79" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="RELAY" gate="G$1" pin="3"/>
+<wire x1="113.03" y1="143.51" x2="113.03" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="152.4" x2="119.38" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VCC" class="0">
+<segment>
+<pinref part="RELAY" gate="G$1" pin="1"/>
+<pinref part="RELAY" gate="G$1" pin="6"/>
+<wire x1="118.11" y1="133.35" x2="118.11" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="132.08" x2="113.03" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="113.03" y1="132.08" x2="113.03" y2="133.35" width="0.1524" layer="91"/>
+<wire x1="118.11" y1="132.08" x2="129.54" y2="132.08" width="0.1524" layer="91"/>
+<junction x="118.11" y="132.08"/>
+<label x="121.92" y="132.08" size="2.54" layer="95"/>
 </segment>
 </net>
 </nets>
