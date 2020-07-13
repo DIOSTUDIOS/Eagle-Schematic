@@ -1015,14 +1015,14 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 <instance part="ARDUINO-UNO" gate="G$1" x="66.04" y="121.92"/>
 <instance part="U$1" gate="G$1" x="106.68" y="133.35"/>
 <instance part="U$2" gate="G$1" x="146.05" y="133.35"/>
-<instance part="LED1" gate="G$1" x="189.23" y="83.82" rot="R90"/>
-<instance part="LED2" gate="G$1" x="189.23" y="78.74" rot="R90"/>
-<instance part="LED3" gate="G$1" x="189.23" y="73.66" rot="R90"/>
-<instance part="LED4" gate="G$1" x="189.23" y="68.58" rot="R90"/>
-<instance part="LED5" gate="G$1" x="189.23" y="63.5" rot="R90"/>
-<instance part="LED6" gate="G$1" x="189.23" y="58.42" rot="R90"/>
-<instance part="LED7" gate="G$1" x="189.23" y="53.34" rot="R90"/>
-<instance part="LED8" gate="G$1" x="189.23" y="48.26" rot="R90"/>
+<instance part="LED1" gate="G$1" x="196.85" y="83.82" rot="R90"/>
+<instance part="LED2" gate="G$1" x="196.85" y="78.74" rot="R90"/>
+<instance part="LED3" gate="G$1" x="196.85" y="73.66" rot="R90"/>
+<instance part="LED4" gate="G$1" x="196.85" y="68.58" rot="R90"/>
+<instance part="LED5" gate="G$1" x="196.85" y="63.5" rot="R90"/>
+<instance part="LED6" gate="G$1" x="196.85" y="58.42" rot="R90"/>
+<instance part="LED7" gate="G$1" x="196.85" y="53.34" rot="R90"/>
+<instance part="LED8" gate="G$1" x="196.85" y="48.26" rot="R90"/>
 <instance part="LED9" gate="G$1" x="227.33" y="83.82" rot="R270"/>
 <instance part="LED10" gate="G$1" x="227.33" y="78.74" rot="R270"/>
 <instance part="LED11" gate="G$1" x="227.33" y="73.66" rot="R270"/>
@@ -1096,37 +1096,37 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="194.31" y1="83.82" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="83.82" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="201.93" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="83.82" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="LED2" gate="G$1" pin="C"/>
-<wire x1="195.58" y1="78.74" x2="194.31" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="78.74" x2="201.93" y2="78.74" width="0.1524" layer="91"/>
 <pinref part="LED3" gate="G$1" pin="C"/>
-<wire x1="194.31" y1="73.66" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="73.66" x2="195.58" y2="78.74" width="0.1524" layer="91"/>
-<junction x="195.58" y="78.74"/>
+<wire x1="201.93" y1="73.66" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="73.66" x2="203.2" y2="78.74" width="0.1524" layer="91"/>
+<junction x="203.2" y="78.74"/>
 <pinref part="LED4" gate="G$1" pin="C"/>
-<wire x1="194.31" y1="68.58" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="68.58" x2="195.58" y2="73.66" width="0.1524" layer="91"/>
-<junction x="195.58" y="73.66"/>
+<wire x1="201.93" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="68.58" x2="203.2" y2="73.66" width="0.1524" layer="91"/>
+<junction x="203.2" y="73.66"/>
 <pinref part="LED5" gate="G$1" pin="C"/>
-<wire x1="194.31" y1="63.5" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="63.5" x2="195.58" y2="68.58" width="0.1524" layer="91"/>
-<junction x="195.58" y="68.58"/>
+<wire x1="201.93" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="63.5" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
+<junction x="203.2" y="68.58"/>
 <pinref part="LED6" gate="G$1" pin="C"/>
-<wire x1="194.31" y1="58.42" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="58.42" x2="195.58" y2="63.5" width="0.1524" layer="91"/>
-<junction x="195.58" y="63.5"/>
+<wire x1="201.93" y1="58.42" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="58.42" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+<junction x="203.2" y="63.5"/>
 <pinref part="LED7" gate="G$1" pin="C"/>
-<wire x1="194.31" y1="53.34" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="53.34" x2="195.58" y2="58.42" width="0.1524" layer="91"/>
-<junction x="195.58" y="58.42"/>
+<wire x1="201.93" y1="53.34" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="53.34" x2="203.2" y2="58.42" width="0.1524" layer="91"/>
+<junction x="203.2" y="58.42"/>
 <pinref part="LED8" gate="G$1" pin="C"/>
-<wire x1="194.31" y1="48.26" x2="195.58" y2="48.26" width="0.1524" layer="91"/>
-<wire x1="195.58" y1="48.26" x2="195.58" y2="53.34" width="0.1524" layer="91"/>
-<junction x="195.58" y="53.34"/>
-<wire x1="201.93" y1="83.82" x2="195.58" y2="83.82" width="0.1524" layer="91"/>
-<junction x="195.58" y="83.82"/>
-<label x="196.85" y="83.82" size="1.27" layer="95"/>
+<wire x1="201.93" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="48.26" x2="203.2" y2="53.34" width="0.1524" layer="91"/>
+<junction x="203.2" y="53.34"/>
+<wire x1="209.55" y1="83.82" x2="203.2" y2="83.82" width="0.1524" layer="91"/>
+<junction x="203.2" y="83.82"/>
+<label x="204.47" y="83.82" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="DIG2" class="0">
@@ -1188,8 +1188,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="180.34" y1="83.82" x2="186.69" y2="83.82" width="0.1524" layer="91"/>
-<label x="180.34" y="83.82" size="1.27" layer="95"/>
+<wire x1="187.96" y1="83.82" x2="194.31" y2="83.82" width="0.1524" layer="91"/>
+<label x="187.96" y="83.82" size="1.27" layer="95"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="83.82" x2="222.25" y2="83.82" width="0.1524" layer="91"/>
@@ -1210,8 +1210,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </segment>
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<wire x1="180.34" y1="78.74" x2="186.69" y2="78.74" width="0.1524" layer="91"/>
-<label x="180.34" y="78.74" size="1.27" layer="95"/>
+<wire x1="187.96" y1="78.74" x2="194.31" y2="78.74" width="0.1524" layer="91"/>
+<label x="187.96" y="78.74" size="1.27" layer="95"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="78.74" x2="222.25" y2="78.74" width="0.1524" layer="91"/>
@@ -1232,8 +1232,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </segment>
 <segment>
 <pinref part="LED3" gate="G$1" pin="A"/>
-<wire x1="180.34" y1="73.66" x2="186.69" y2="73.66" width="0.1524" layer="91"/>
-<label x="180.34" y="73.66" size="1.27" layer="95"/>
+<wire x1="187.96" y1="73.66" x2="194.31" y2="73.66" width="0.1524" layer="91"/>
+<label x="187.96" y="73.66" size="1.27" layer="95"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="73.66" x2="222.25" y2="73.66" width="0.1524" layer="91"/>
@@ -1254,8 +1254,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </segment>
 <segment>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="180.34" y1="68.58" x2="186.69" y2="68.58" width="0.1524" layer="91"/>
-<label x="180.34" y="68.58" size="1.27" layer="95"/>
+<wire x1="187.96" y1="68.58" x2="194.31" y2="68.58" width="0.1524" layer="91"/>
+<label x="187.96" y="68.58" size="1.27" layer="95"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="68.58" x2="222.25" y2="68.58" width="0.1524" layer="91"/>
@@ -1276,8 +1276,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </segment>
 <segment>
 <pinref part="LED5" gate="G$1" pin="A"/>
-<wire x1="180.34" y1="63.5" x2="186.69" y2="63.5" width="0.1524" layer="91"/>
-<label x="180.34" y="63.5" size="1.27" layer="95"/>
+<wire x1="187.96" y1="63.5" x2="194.31" y2="63.5" width="0.1524" layer="91"/>
+<label x="187.96" y="63.5" size="1.27" layer="95"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="63.5" x2="222.25" y2="63.5" width="0.1524" layer="91"/>
@@ -1298,8 +1298,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </segment>
 <segment>
 <pinref part="LED6" gate="G$1" pin="A"/>
-<wire x1="180.34" y1="58.42" x2="186.69" y2="58.42" width="0.1524" layer="91"/>
-<label x="180.34" y="58.42" size="1.27" layer="95"/>
+<wire x1="187.96" y1="58.42" x2="194.31" y2="58.42" width="0.1524" layer="91"/>
+<label x="187.96" y="58.42" size="1.27" layer="95"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="58.42" x2="222.25" y2="58.42" width="0.1524" layer="91"/>
@@ -1320,8 +1320,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </segment>
 <segment>
 <pinref part="LED7" gate="G$1" pin="A"/>
-<wire x1="180.34" y1="53.34" x2="186.69" y2="53.34" width="0.1524" layer="91"/>
-<label x="180.34" y="53.34" size="1.27" layer="95"/>
+<wire x1="187.96" y1="53.34" x2="194.31" y2="53.34" width="0.1524" layer="91"/>
+<label x="187.96" y="53.34" size="1.27" layer="95"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="53.34" x2="222.25" y2="53.34" width="0.1524" layer="91"/>
@@ -1342,8 +1342,8 @@ Source: http://www.ledtronics.com/ds/smd-0603/Dstr0092.pdf</description>
 </segment>
 <segment>
 <pinref part="LED8" gate="G$1" pin="A"/>
-<wire x1="180.34" y1="48.26" x2="186.69" y2="48.26" width="0.1524" layer="91"/>
-<label x="180.34" y="48.26" size="1.27" layer="95"/>
+<wire x1="187.96" y1="48.26" x2="194.31" y2="48.26" width="0.1524" layer="91"/>
+<label x="187.96" y="48.26" size="1.27" layer="95"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="48.26" x2="222.25" y2="48.26" width="0.1524" layer="91"/>
