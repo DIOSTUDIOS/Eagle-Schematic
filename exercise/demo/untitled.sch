@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -845,8 +845,8 @@
 <instances>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="ARDUINO-UNO" gate="G$1" x="66.04" y="121.92"/>
-<instance part="U$1" gate="G$1" x="107.95" y="118.11" rot="R270"/>
-<instance part="R1" gate="G$1" x="87.63" y="127" rot="R90"/>
+<instance part="U$1" gate="G$1" x="107.95" y="120.65" rot="R270"/>
+<instance part="R1" gate="G$1" x="87.63" y="129.54" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -858,11 +858,11 @@
 <wire x1="41.91" y1="127" x2="41.91" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="148.59" x2="87.63" y2="148.59" width="0.1524" layer="91"/>
 <wire x1="87.63" y1="148.59" x2="92.71" y2="148.59" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="148.59" x2="92.71" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="148.59" x2="92.71" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
-<wire x1="92.71" y1="121.92" x2="95.25" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="124.46" x2="95.25" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="87.63" y1="132.08" x2="87.63" y2="148.59" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="134.62" x2="87.63" y2="148.59" width="0.1524" layer="91"/>
 <junction x="87.63" y="148.59"/>
 </segment>
 </net>
@@ -871,21 +871,21 @@
 <pinref part="ARDUINO-UNO" gate="G$1" pin="GND1"/>
 <wire x1="41.91" y1="119.38" x2="48.26" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="95.25" y1="114.3" x2="92.71" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="114.3" x2="92.71" y2="95.25" width="0.1524" layer="91"/>
+<wire x1="95.25" y1="116.84" x2="92.71" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="116.84" x2="92.71" y2="95.25" width="0.1524" layer="91"/>
 <wire x1="92.71" y1="95.25" x2="41.91" y2="95.25" width="0.1524" layer="91"/>
 <wire x1="41.91" y1="95.25" x2="41.91" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="ARDUINO-UNO" gate="G$1" pin="D7"/>
 <pinref part="U$1" gate="G$1" pin="DAT"/>
-<wire x1="83.82" y1="119.38" x2="87.63" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="87.63" y1="119.38" x2="95.25" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="87.63" y1="119.38" x2="87.63" y2="121.92" width="0.1524" layer="91"/>
-<junction x="87.63" y="119.38"/>
+<wire x1="87.63" y1="121.92" x2="95.25" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="87.63" y1="121.92" x2="87.63" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="ARDUINO-UNO" gate="G$1" pin="D8"/>
+<wire x1="83.82" y1="121.92" x2="87.63" y2="121.92" width="0.1524" layer="91"/>
+<junction x="87.63" y="121.92"/>
 </segment>
 </net>
 </nets>
